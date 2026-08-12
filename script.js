@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let target = document.getElementById("level");
-console.log(getDomLevel(target)); 
+alert(getDomLevel(target)); 
 function getDomLevel(element) {
   let level = 0;
   while (element) {
